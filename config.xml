@@ -129,7 +129,7 @@
     <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
-         <application android:debuggable="false" />
+         <application android:debuggable="true" />
     </gap:config-file>
 
     <!-- See MOBILE-892 -->
